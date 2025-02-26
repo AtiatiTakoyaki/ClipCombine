@@ -1,0 +1,21 @@
+★使い方
+1．setting.iniで設定をする
+2．input配下にまとめたい動画をすべて格納する
+3．matomerukun.exeを実行
+4．処理が終わるまで待つ
+
+★setting.ini
+FileName		:FileName(出力ファイル名): defaultの場合、combined_video_YYYYmmddHHMMSS.mp4
+Font			:使いたいフォントのパス
+TextColor		:左上に表示されるタイトルの文字カラー
+StrokeColor	:タイトルの輪郭カラー
+BgColor		:タイトルの背景カラー
+StrokeWidth	:輪郭の太さ
+Width = 1920	:出力する動画サイズの高さ
+Height = 1080	:出力する動画サイズの幅
+Nvenc		:ハードウェアエンコードの使用(True:使用する Flase:使用しない) ※動作不安定のため非推奨
+
+★注意事項
+・入力ファイルは.mp4のみ対応
+・1920x1080推奨
+・処理速度大遅
